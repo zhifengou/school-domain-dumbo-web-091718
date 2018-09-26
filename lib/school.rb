@@ -19,8 +19,8 @@ def initialize(name)
   end
   
    def sort
-    @roster.each do |key, value|
-      value.sort!
+    @roster.map do |key, value|
+      value.sort
     end
   end
 end 
