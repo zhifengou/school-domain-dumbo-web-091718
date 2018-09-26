@@ -20,7 +20,7 @@ def initialize(name)
   
    def sort
     @roster.map do |key, value|
-      value.sort
+      value.sort!
     end
   end
 end 
